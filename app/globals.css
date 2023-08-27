@@ -3,15 +3,15 @@
 @tailwind utilities;
 
 body {
-  color: #FCFBF3;
-  background-color: #131414;
+  color: #fcfbf3;
+  background-color: #202020;
 }
 
 .box h1::after {
   content: "";
   width: 15px;
   height: 30px;
-  background: #7CB0A1;
+  background: #7cb0a1;
   display: inline-block;
   animation: cursor-blink 1.5s steps(2) infinite;
 }

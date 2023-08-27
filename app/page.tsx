@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Portfolio } from "./sections/portfolio";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
           We build on the block.
         </h1>
       </div>
+      <Portfolio />
     </main>
   );
 }
