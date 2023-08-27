@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import type { NextPage } from "next";
 
 export interface PortfolioItem {
@@ -7,31 +6,26 @@ export interface PortfolioItem {
   title: string;
   url: string;
   description: string;
+  styles: string;
 }
 
-const PortfolioItem: NextPage<PortfolioItem>  = ({ image, title, url, description }) => {
-  function goTo() {
-    window.open(url, '_blank');
-  };
-  
+const PortfolioItem: NextPage<PortfolioItem> = ({
+  image,
+  title,
+  url,
+  description,
+  styles,
+}) => {
   return (
-    <div className="card card-compact w-96 bg-base-100 shadow-xl image-full">
-      <figure>
-        <Image
-          width={500}
-          height={500}
-          src={image}
-          alt={title}
-        />
-      </figure>
-      <div className="card-body">
-        <h2 className="card-title">{title}</h2>
-        <p>{description}</p>
-        <div className="card-actions justify-end">
-          <button className="btn btn-primary">
-            Learn More
-          </button>
-        </div>
+    <div
+      style={{ backgroundImage: `url("${image}")` }}
+      className={`bg-center bg-cover ${styles}`}
+      onClick={() => {
+        window.open(url, "blank");
+      }}
+    >
+      <div className="tooltip w-full h-full" data-tip={description}>
+        <a className="p-2 bg-base-100 absolute bottom-0 right-0">{title}</a>
       </div>
     </div>
   );
