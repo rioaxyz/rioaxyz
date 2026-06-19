@@ -6,15 +6,15 @@ const Footer = () => {
     <footer className="footer footer-center p-10 bg-base-100 text-accent text-center text-sm">
       <div>
         <Image
-          className="mx-auto"
-          width={50}
-          height={50}
+          className="mx-auto opacity-80"
+          width={120}
+          height={37}
           src={"/assets/white-logo.svg"}
           alt={"Rioa White Logo"}
         />
-        <p className="font-bold">Building since 2023.</p>
-        <p className="pt-10">
-          Copyright © 2023 - Rioa, LLC. All right reserved
+        <p className="font-medium pt-4">Building since 2023.</p>
+        <p className="pt-6 text-accent/50">
+          Copyright © 2026 - Rioa, LLC. All rights reserved
         </p>
       </div>
       {/* <div>
