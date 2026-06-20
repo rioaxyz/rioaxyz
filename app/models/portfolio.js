@@ -6,6 +6,12 @@ const PORTFOLIO = [
     description: "A little dashboard for compounding DRIP and taking profits"
   },
   {
+    title: "Chartik",
+    image: "/assets/chartik.png",
+    url: "https://www.chartik.app",
+    description: "A trading quiz for candlesticks, chart patterns, and market momentum"
+  },
+  {
     title: "Vaypor",
     image: "/assets/vaypor-logo.png",
     url: "#",
