@@ -16,7 +16,7 @@ export default function Home() {
 
       <section className="max-w-5xl mx-auto text-center pt-28 pb-24">
         <h1 className="text-5xl md:text-6xl font-medium leading-[1.15] text-accent">
-          we build on the <span className="text-primary">block.</span>
+          we build from the <span className="text-primary">block</span> up.
         </h1>
         <p className="text-base text-accent/55 mt-6">
           independent studio · shipping since 2023

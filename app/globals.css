@@ -10,3 +10,16 @@ body {
   color: #fcfbf3;
   background-color: #202020;
 }
+
+.hex-link {
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.hex-link:hover {
+  opacity: 0.92;
+}
+
+.hex-link:hover .hex-border {
+  stroke-width: 3;
+}
