@@ -8,7 +8,7 @@ export const Portfolio = () => {
       <h2 className="text-xs tracking-[0.16em] text-accent/40 text-center mb-8">
         SELECTED WORK
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
         {PORTFOLIO.map((item) => (
           <PortfolioItem
             key={item.title}
