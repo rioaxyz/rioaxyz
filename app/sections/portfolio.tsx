@@ -10,17 +10,17 @@ const hexPoints = (cx: number, cy: number) =>
 const ROW_Y = 180;
 
 const ACTIVE_CELLS = [
-  { cx: 174, cy: ROW_Y },
-  { cx: 360, cy: ROW_Y },
-  { cx: 546, cy: ROW_Y },
+  { cx: 124, cy: ROW_Y },
+  { cx: 310, cy: ROW_Y },
+  { cx: 496, cy: ROW_Y },
 ];
 
 const DECOR_CELLS = [
-  { cx: 267, cy: ROW_Y - H },
-  { cx: 453, cy: ROW_Y - H },
-  { cx: 174, cy: ROW_Y - 2 * H },
-  { cx: 360, cy: ROW_Y - 2 * H },
-  { cx: 546, cy: ROW_Y - 2 * H },
+  { cx: 217, cy: ROW_Y - H },
+  { cx: 403, cy: ROW_Y - H },
+  { cx: 124, cy: ROW_Y - 2 * H },
+  { cx: 310, cy: ROW_Y - 2 * H },
+  { cx: 496, cy: ROW_Y - 2 * H },
 ];
 
 export const Portfolio = () => {
