@@ -12,6 +12,12 @@ const PORTFOLIO = [
     description: "A trading quiz for candlesticks, chart patterns, and market momentum"
   },
   {
+    title: "Sonr",
+    image: "/assets/sonr-logo.png",
+    url: "https://www.getsonr.com",
+    description: "A small-cap momentum console for macOS with scanners and pattern detection"
+  },
+  {
     title: "Vaypor",
     image: "/assets/vaypor-logo.png",
     url: "#",
