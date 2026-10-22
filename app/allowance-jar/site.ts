@@ -3,7 +3,7 @@ export const ALLOWANCE_JAR = {
   name: "Allowance Jar",
   tagline: "Kids' allowances, shared as a family.",
   /// Shown on the support page and in the privacy policy. Set before publishing.
-  supportEmail: "[support email]",
+  supportEmail: "hello@rioa.xyz",
   /// The App Store page once the app is live; empty hides the button.
   appStoreUrl: "",
   privacyEffectiveDate: "October 21, 2026",
