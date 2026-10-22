@@ -1,5 +1,11 @@
 const PORTFOLIO = [
   {
+    title: "Allowance Jar",
+    image: "/assets/allowance-jar.png",
+    url: "/allowance-jar",
+    description: "Kids' allowances, shared as a family, on iPhone, iPad, and Apple Watch"
+  },
+  {
     title: "Drip Dashboard",
     image: "/assets/drip-dashboard.png",
     url: "https://drip-dashboard.vercel.app",
