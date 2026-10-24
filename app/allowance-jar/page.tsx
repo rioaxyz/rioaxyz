@@ -69,8 +69,9 @@ export default function AllowanceJarPage() {
             ))}
           </ul>
           <p className="text-xs text-accent/40 mt-5 leading-relaxed">
-            A monthly or yearly subscription for the whole household, with
-            Family Sharing. Prices are shown in the app.
+            A monthly or yearly subscription. One person subscribes and
+            everyone sharing the household gets Plus on their own devices.
+            Prices are shown in the app.
           </p>
         </div>
       </section>

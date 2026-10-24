@@ -18,7 +18,7 @@ const FAQ: { q: string; a: string }[] = [
   },
   {
     q: "What is Allowance Jar Plus?",
-    a: "A subscription that unlocks everything beyond the basic allowance: weekly deposits on autopilot, chores with approval, the family total, archiving, equity and mixed allowances, widgets, and the Watch complication. One subscription covers the whole household through Family Sharing, and you manage or cancel it in the App Store.",
+    a: "A subscription that unlocks everything beyond the basic allowance: weekly deposits on autopilot, chores with approval, the family total, archiving, equity and mixed allowances, widgets, and the Watch complication. One subscription covers the whole household: when one person subscribes, everyone sharing the household gets Plus on their own devices, and only the subscriber manages or cancels it in the App Store.",
   },
   {
     q: "Who can approve chores?",
