@@ -77,7 +77,11 @@ export default function PrivacyPage() {
           through Apple&apos;s App Store. Apple handles payment, billing, Family
           Sharing, and refunds. We receive no payment details. Your
           subscription status is checked on your device through Apple&apos;s
-          StoreKit and cached there.
+          StoreKit and cached there. So that one subscription can cover the
+          whole household, the subscriber&apos;s device stores the
+          subscription&apos;s renewal date in the shared household in iCloud,
+          where the other members&apos; devices read it; no payment or
+          account details are shared.
         </p>
       </Section>
 
