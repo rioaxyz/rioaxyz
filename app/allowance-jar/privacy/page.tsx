@@ -73,15 +73,18 @@ export default function PrivacyPage() {
 
       <Section title="Purchases">
         <p>
-          {ALLOWANCE_JAR.name} Plus is an auto-renewing subscription sold
-          through Apple&apos;s App Store. Apple handles payment, billing, Family
-          Sharing, and refunds. We receive no payment details. Your
+          {ALLOWANCE_JAR.name} is sold as an auto-renewing subscription,
+          {ALLOWANCE_JAR.name} Plus, through Apple&apos;s App Store, with a
+          free trial. Apple handles payment, billing, and refunds. We receive
+          no payment details and no information about you from Apple. Your
           subscription status is checked on your device through Apple&apos;s
           StoreKit and cached there. So that one subscription can cover the
           whole household, the subscriber&apos;s device stores the
           subscription&apos;s renewal date in the shared household in iCloud,
           where the other members&apos; devices read it; no payment or
-          account details are shared.
+          account details are shared. When a subscription ends, nothing is
+          deleted: the household&apos;s data stays in iCloud exactly as
+          described above.
         </p>
       </Section>
 

@@ -2,6 +2,11 @@
 const CHANGELOG = [
   {
     date: "Oct 2026",
+    title: "Allowance Jar · One subscription, 14 days free",
+    body: "Everything in the app is now part of Allowance Jar Plus, with a 14-day free trial. One subscription covers the whole household, and the app ships in eight languages.",
+  },
+  {
+    date: "Oct 2026",
     title: "Rioa · New identity",
     body: "The Refined Trio mark and the Harbor Blue palette, across the site, icons and avatars.",
   },
