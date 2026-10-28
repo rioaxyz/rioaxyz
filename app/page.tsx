@@ -6,9 +6,9 @@ export default function Home() {
     <main className="min-h-screen px-6">
       <header className="max-w-5xl mx-auto flex justify-center pt-10 pb-2">
         <Image
-          src="/logo-color-no-bg.svg"
+          src="/brand/rioa-logo.svg"
           alt="Rioa"
-          width={110}
+          width={111}
           height={34}
           priority
         />

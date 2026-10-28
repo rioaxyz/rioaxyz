@@ -13,11 +13,11 @@ const config: Config = {
     themes: [
       {
         mytheme: {
-          primary: "#7CB0A1", // greenish
-          secondary: "#93c5fd", // blueish
-          accent: "#FCFBF3", // off white
-          neutral: "#2a323c",
-          "base-100": "#202020", // mid black
+          primary: "#5BA4C9", // harbor blue
+          secondary: "#F2C14E", // gold
+          accent: "#EEF4F7", // mist
+          neutral: "#1D4E6B", // deep harbor
+          "base-100": "#0D1B24", // night
           info: "#3abff8",
           success: "#36d399",
           warning: "#fbbd23",
