@@ -21,7 +21,7 @@ export default function PrivacyPage() {
       <h1 className="text-4xl font-medium text-accent">
         {ALLOWANCE_JAR.name} privacy policy
       </h1>
-      <p className="text-sm text-accent/45 mt-3">
+      <p className="text-sm text-accent/60 mt-3">
         Effective {ALLOWANCE_JAR.privacyEffectiveDate}
       </p>
       <p className="text-sm text-accent/70 leading-relaxed mt-6">

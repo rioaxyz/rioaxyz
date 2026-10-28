@@ -41,7 +41,7 @@ export default function SupportPage() {
         are on (Settings → About in the app). We read every message.
       </p>
 
-      <h2 className="text-xs tracking-[0.16em] text-accent/40 mt-14 mb-6">
+      <h2 className="text-xs tracking-[0.16em] text-accent/60 mt-14 mb-6">
         COMMON QUESTIONS
       </h2>
       <dl className="space-y-8">
@@ -53,7 +53,7 @@ export default function SupportPage() {
         ))}
       </dl>
 
-      <p className="text-sm text-accent/50 mt-16">
+      <p className="text-sm text-accent/65 mt-16">
         See also the{" "}
         <Link href="/allowance-jar/privacy" className="hover:text-accent transition underline">
           privacy policy
