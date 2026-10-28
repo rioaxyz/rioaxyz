@@ -9,8 +9,8 @@ const Footer = () => {
           className="mx-auto opacity-80"
           width={120}
           height={37}
-          src={"/assets/white-logo.svg"}
-          alt={"Rioa White Logo"}
+          src={"/brand/rioa-logo-white.svg"}
+          alt={"Rioa"}
         />
         <p className="font-medium pt-4">Building since 2023.</p>
         <p className="pt-6 text-accent/50">
