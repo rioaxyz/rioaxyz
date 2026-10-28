@@ -7,6 +7,13 @@ html {
 }
 
 body {
-  color: #eef4f7;
-  background-color: #0d1b24;
+  color: #0d1b24;
+  background-color: #eef4f7;
+}
+
+/* The faint engineering grid behind the hero. */
+.grid-bg {
+  background-image: linear-gradient(rgba(29, 78, 107, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(29, 78, 107, 0.08) 1px, transparent 1px);
+  background-size: 40px 40px;
 }

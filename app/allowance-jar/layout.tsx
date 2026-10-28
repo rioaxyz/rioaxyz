@@ -18,7 +18,7 @@ export default function AllowanceJarLayout({
       <header className="max-w-3xl mx-auto flex items-center justify-between pt-10 pb-2">
         <Link href="/" aria-label="Rioa home">
           <Image
-            src="/brand/rioa-logo.svg"
+            src="/brand/rioa-logo-on-light.svg"
             alt="Rioa"
             width={111}
             height={34}

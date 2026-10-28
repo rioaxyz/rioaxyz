@@ -1,33 +1,79 @@
+/// Everything Rioa makes. The product index, the category counts and the
+/// footer all read from here, so a new product only needs a new entry.
+/// category: "mobile" | "desktop" | "web" | "oss"
+/// status: "live" | "soon"
 const PORTFOLIO = [
   {
     title: "Allowance Jar",
     image: "/assets/allowance-jar.png",
     url: "/allowance-jar",
-    description: "Kids' allowances, shared as a family, on iPhone, iPad, and Apple Watch"
-  },
-  {
-    title: "Drip Dashboard",
-    image: "/assets/drip-dashboard.png",
-    url: "https://drip-dashboard.vercel.app",
-    description: "A little dashboard for compounding DRIP and taking profits"
-  },
-  {
-    title: "Chartik",
-    image: "/assets/chartik.png",
-    url: "https://www.chartik.app",
-    description: "A trading quiz for candlesticks, chart patterns, and market momentum"
+    description: "Kids' allowances, shared as a family",
+    category: "mobile",
+    kind: "Mobile app",
+    platforms: "iOS · iPadOS · watchOS",
+    status: "soon",
+    statusLabel: "Coming to the App Store",
+    cta: "Details",
   },
   {
     title: "Sonr",
     image: "/assets/sonr-logo.png",
     url: "https://www.getsonr.com",
-    description: "A small-cap momentum console for macOS with scanners and pattern detection"
+    description: "Small-cap momentum console",
+    category: "desktop",
+    kind: "Desktop app",
+    platforms: "macOS",
+    status: "live",
+    statusLabel: "Available",
+    cta: "Visit",
+  },
+  {
+    title: "Sonr Chart",
+    image: "/assets/sonrchart.png",
+    url: "https://www.npmjs.com/package/@rioaxyz/sonrchart",
+    description: "React candlestick charts, from Sonr",
+    category: "oss",
+    kind: "Open-source library",
+    platforms: "React · TypeScript",
+    status: "live",
+    statusLabel: "MIT · v0.9.0",
+    cta: "npm",
+  },
+  {
+    title: "Chartik",
+    image: "/assets/chartik.png",
+    url: "https://www.chartik.app",
+    description: "Trading quiz for chart patterns",
+    category: "web",
+    kind: "Web app",
+    platforms: "Web",
+    status: "live",
+    statusLabel: "Available",
+    cta: "Visit",
+  },
+  {
+    title: "Drip Dashboard",
+    image: "/assets/drip-dashboard.png",
+    url: "https://drip-dashboard.vercel.app",
+    description: "Compounding DRIP and taking profits",
+    category: "web",
+    kind: "Web app",
+    platforms: "Web",
+    status: "live",
+    statusLabel: "Available",
+    cta: "Visit",
   },
   {
     title: "Vaypor",
     image: "/assets/vaypor-logo.png",
-    url: "#",
-    description: "Coming soon"
+    url: "",
+    description: "Details soon",
+    category: null,
+    kind: "To be announced",
+    platforms: "—",
+    status: "soon",
+    statusLabel: "Coming soon",
+    cta: "",
   },
 ];
 

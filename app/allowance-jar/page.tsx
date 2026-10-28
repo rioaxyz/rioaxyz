@@ -33,7 +33,7 @@ export default function AllowanceJarPage() {
           {ALLOWANCE_JAR.name}
         </h1>
         <p className="text-lg text-accent/60 mt-4">{ALLOWANCE_JAR.tagline}</p>
-        <p className="text-sm text-accent/45 mt-3">
+        <p className="text-sm text-accent/60 mt-3">
           For iPhone, iPad, and Apple Watch.
         </p>
         {ALLOWANCE_JAR.appStoreUrl ? (
@@ -44,7 +44,7 @@ export default function AllowanceJarPage() {
             Download on the App Store
           </a>
         ) : (
-          <p className="inline-block text-sm text-accent/50 border border-accent/15 px-6 py-3 rounded-lg mt-9">
+          <p className="inline-block text-sm text-accent/65 border border-accent/15 px-6 py-3 rounded-lg mt-9">
             Coming soon to the App Store
           </p>
         )}
@@ -52,7 +52,7 @@ export default function AllowanceJarPage() {
 
       <section className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 pb-24">
         <div className="rounded-xl border border-accent/10 p-6">
-          <h2 className="text-xs tracking-[0.16em] text-accent/40 mb-4">FREE</h2>
+          <h2 className="text-xs tracking-[0.16em] text-accent/60 mb-4">FREE</h2>
           <ul className="space-y-3 text-sm text-accent/70 leading-relaxed">
             {FREE.map((item) => (
               <li key={item}>{item}</li>
@@ -68,7 +68,7 @@ export default function AllowanceJarPage() {
               <li key={item}>{item}</li>
             ))}
           </ul>
-          <p className="text-xs text-accent/40 mt-5 leading-relaxed">
+          <p className="text-xs text-accent/60 mt-5 leading-relaxed">
             A monthly or yearly subscription. One person subscribes and
             everyone sharing the household gets Plus on their own devices.
             Prices are shown in the app.
@@ -76,7 +76,7 @@ export default function AllowanceJarPage() {
         </div>
       </section>
 
-      <section className="max-w-3xl mx-auto text-center text-sm text-accent/50 pb-24">
+      <section className="max-w-3xl mx-auto text-center text-sm text-accent/65 pb-24">
         <Link href="/allowance-jar/support" className="hover:text-accent transition">
           Support
         </Link>

@@ -1,9 +1,14 @@
 import "./globals.css";
 import type { Metadata, Viewport } from "next";
-import { Outfit } from "next/font/google";
+import { IBM_Plex_Mono, Outfit } from "next/font/google";
 import Footer from "./sections/footer";
 
-const outfit = Outfit({ subsets: ["latin"] });
+const outfit = Outfit({ subsets: ["latin"], variable: "--font-sans" });
+const plexMono = IBM_Plex_Mono({
+  subsets: ["latin"],
+  weight: ["400", "500"],
+  variable: "--font-mono",
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.rioa.xyz"),
@@ -18,7 +23,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#0D1B24",
+  themeColor: "#FFFFFF",
 };
 
 export default function RootLayout({
@@ -28,8 +33,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={outfit.className}>
-        {children} <Footer />
+      <body className={`${outfit.variable} ${plexMono.variable} font-sans`}>
+        {children}
+        <Footer />
       </body>
     </html>
   );
