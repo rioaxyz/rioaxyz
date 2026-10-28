@@ -17,8 +17,28 @@ const FAQ: { q: string; a: string }[] = [
     a: "Both devices need to be signed into iCloud with iCloud Drive on, and the invitation must have been accepted. Give it a minute after a change; opening the app brings in anything waiting.",
   },
   {
-    q: "What is Allowance Jar Plus?",
-    a: "A subscription that unlocks everything beyond the basic allowance: weekly deposits on autopilot, chores with approval, the family total, archiving, equity and mixed allowances, widgets, and the Watch complication. One subscription covers the whole household: when one person subscribes, everyone sharing the household gets Plus on their own devices, and only the subscriber manages or cancels it in the App Store.",
+    q: "Is there a free trial?",
+    a: `Yes. A new household starts with ${ALLOWANCE_JAR.plus.trialDays} days free on the monthly plan. Nothing is charged until the trial ends, and cancelling before then costs nothing. The trial is offered once per Apple Account.`,
+  },
+  {
+    q: "What does Allowance Jar Plus include?",
+    a: "Everything. The app is sold as one subscription, monthly or yearly: jars, goals, history, household sharing, change alerts, Siri, the Watch app, weekly deposits on autopilot, chores with approval, the family total, archiving, equity and mixed allowances, widgets, and the Watch complication.",
+  },
+  {
+    q: "Does everyone in the household need to subscribe?",
+    a: "No. One person subscribes, and everyone who accepted the household invitation uses the app on their own devices with nothing to buy. Their Settings screen says whose subscription covers them. Only the subscriber manages or cancels it.",
+  },
+  {
+    q: "What happens when the subscription ends?",
+    a: "The app becomes read-only for the whole household: every jar and its history stays visible, but nothing can be added, spent, or marked done until someone subscribes again. Nothing is deleted, and subscribing again picks up exactly where you left off.",
+  },
+  {
+    q: "How do I cancel or change plans?",
+    a: "Open Settings in the app and tap Manage Subscription, or go to iPhone Settings → your name → Subscriptions. Switching between monthly and yearly, and cancelling, both happen there. Apple handles billing and refunds.",
+  },
+  {
+    q: "What can I say to Siri?",
+    a: `"How much does Emma have in ${ALLOWANCE_JAR.name}", "Add to Emma in ${ALLOWANCE_JAR.name}" (Siri then asks how much), "Spend from Emma in ${ALLOWANCE_JAR.name}", "Chores in ${ALLOWANCE_JAR.name}", and "Mark dishes done in ${ALLOWANCE_JAR.name}", using your own kids' and chores' names. The Shortcuts app lists every phrase in your language.`,
   },
   {
     q: "Who can approve chores?",
