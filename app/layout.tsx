@@ -6,7 +6,7 @@ import Footer from "./sections/footer";
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://rioa.xyz"),
+  metadataBase: new URL("https://www.rioa.xyz"),
   title: "Rioa, LLC",
   description: "We build from the block up.",
   openGraph: {
