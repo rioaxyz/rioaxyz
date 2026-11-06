@@ -11,6 +11,9 @@ const config: Config = {
       fontFamily: {
         sans: ["var(--font-sans)", "system-ui", "sans-serif"],
         mono: ["var(--font-mono)", "ui-monospace", "monospace"],
+        // Loqui's own pages, /loqui
+        "loqui-sans": ["var(--font-loqui-sans)", "system-ui", "sans-serif"],
+        "loqui-mono": ["var(--font-loqui-mono)", "ui-monospace", "monospace"],
       },
       colors: {
         night: "#0D1B24",
@@ -27,6 +30,19 @@ const config: Config = {
         "night-raised": "#10222D",
         live: "#2E9E6B",
         soon: "#D9A21E",
+        // Loqui's Spectrum palette and its dark ground, from the Loqui repo's docs/brand
+        loqui: {
+          ground: "#0F1419",
+          raised: "#161D24",
+          line: "#222B34",
+          text: "#E8EDF2",
+          muted: "#9AA6B2",
+          subtle: "#7D8994",
+          coral: "#FF6B5B",
+          amber: "#FFB547",
+          mint: "#3DDC97",
+          sky: "#5AC8FA",
+        },
       },
     },
   },

@@ -28,6 +28,18 @@ const PORTFOLIO = [
     cta: "Visit",
   },
   {
+    title: "Loqui",
+    image: "/assets/loqui.png",
+    url: "/loqui",
+    description: "Private, on-device dictation",
+    category: "desktop",
+    kind: "Desktop app",
+    platforms: "macOS",
+    status: "live",
+    statusLabel: "Free · v1.5.0",
+    cta: "Details",
+  },
+  {
     title: "Sonr Chart",
     image: "/assets/sonrchart.png",
     url: "https://www.npmjs.com/package/@rioaxyz/sonrchart",
