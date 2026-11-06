@@ -1,8 +1,8 @@
 import Image from "next/image";
-import PORTFOLIO from "./models/portfolio";
-import { Changelog } from "./sections/changelog";
-import { OpenSource } from "./sections/open-source";
-import { ProductIndex } from "./sections/product-index";
+import PORTFOLIO from "../models/portfolio";
+import { Changelog } from "../sections/changelog";
+import { OpenSource } from "../sections/open-source";
+import { ProductIndex } from "../sections/product-index";
 
 const SPEC = [
   ["Shipping since", "2023"],

@@ -1,7 +1,6 @@
 import "./globals.css";
 import type { Metadata, Viewport } from "next";
 import { IBM_Plex_Mono, Outfit } from "next/font/google";
-import Footer from "./sections/footer";
 
 const outfit = Outfit({ subsets: ["latin"], variable: "--font-sans" });
 const plexMono = IBM_Plex_Mono({
@@ -35,7 +34,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${outfit.variable} ${plexMono.variable} font-sans`}>
         {children}
-        <Footer />
       </body>
     </html>
   );

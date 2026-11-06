@@ -1,6 +1,11 @@
 /// What shipped across the studio, newest first.
 const CHANGELOG = [
   {
+    date: "Nov 2026",
+    title: "Loqui · 1.5.0",
+    body: "Private, on-device dictation for the Mac joins Rioa. Hold a key, speak, and the words appear at the cursor; 1.5.0 lets any key be the dictation key.",
+  },
+  {
     date: "Oct 2026",
     title: "Allowance Jar · One subscription, 14 days free",
     body: "Everything in the app is now part of Allowance Jar Plus, with a 14-day free trial. One subscription covers the whole household, and the app ships in eight languages.",
