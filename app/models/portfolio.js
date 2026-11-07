@@ -28,9 +28,9 @@ const PORTFOLIO = [
     category: "desktop",
     kind: "Desktop app",
     platforms: "macOS",
-    status: "live",
-    statusLabel: "Available",
-    cta: "Visit",
+    status: "soon",
+    statusLabel: "Coming soon",
+    cta: "Preview",
   },
   {
     title: "Loqui",
