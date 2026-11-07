@@ -86,7 +86,10 @@ export const ProductIndex = () => {
                     </span>
                   </td>
                   <td className={`${td} text-right`}>
-                    <ProductLink url={item.url} cta={item.cta} />
+                    <span className="inline-flex items-center gap-5">
+                      {item.storeUrl ? <ProductLink url={item.storeUrl} cta={item.storeCta} /> : null}
+                      <ProductLink url={item.url} cta={item.cta} />
+                    </span>
                   </td>
                 </tr>
               ))}

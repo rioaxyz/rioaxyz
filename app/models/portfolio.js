@@ -2,6 +2,9 @@
 /// footer all read from here, so a new product only needs a new entry.
 /// category: "mobile" | "desktop" | "web" | "oss"
 /// status: "live" | "soon"
+/// storeUrl, storeCta: an optional second link, to where the product is sold
+import { ALLOWANCE_JAR } from "../(rioa)/allowance-jar/site";
+
 const PORTFOLIO = [
   {
     title: "Allowance Jar",
@@ -11,9 +14,11 @@ const PORTFOLIO = [
     category: "mobile",
     kind: "Mobile app",
     platforms: "iOS · iPadOS · watchOS",
-    status: "soon",
-    statusLabel: "Coming to the App Store",
+    status: "live",
+    statusLabel: "On the App Store · v1.0",
     cta: "Details",
+    storeUrl: ALLOWANCE_JAR.appStoreUrl,
+    storeCta: "App Store",
   },
   {
     title: "Sonr",

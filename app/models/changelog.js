@@ -2,6 +2,11 @@
 const CHANGELOG = [
   {
     date: "Nov 2026",
+    title: "Allowance Jar · On the App Store",
+    body: "Allowance Jar 1.0 is out for iPhone, iPad, and Apple Watch, with 14 days free and one subscription for the whole household.",
+  },
+  {
+    date: "Nov 2026",
     title: "Loqui · 1.5.0",
     body: "Private, on-device dictation for the Mac joins Rioa. Hold a key, speak, and the words appear at the cursor; 1.5.0 lets any key be the dictation key.",
   },

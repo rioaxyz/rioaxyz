@@ -4,8 +4,8 @@ export const ALLOWANCE_JAR = {
   tagline: "Kids' allowances, shared as a family.",
   /// Shown on the support page and in the privacy policy. Set before publishing.
   supportEmail: "hello@rioa.xyz",
-  /// The App Store page once the app is live; empty hides the button.
-  appStoreUrl: "",
+  /// The App Store page (live since November 3, 2026); empty hides the button.
+  appStoreUrl: "https://apps.apple.com/app/allowance-jar/id6824237608",
   privacyEffectiveDate: "October 28, 2026",
   /// The subscription, as sold in the App Store (US prices; the app shows local ones).
   plus: {
