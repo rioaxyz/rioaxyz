@@ -22,7 +22,7 @@ const FAQ: { q: string; a: string }[] = [
   },
   {
     q: "What does Allowance Jar Plus include?",
-    a: "Everything. The app is sold as one subscription, monthly or yearly: jars, goals, history, household sharing, change alerts, Siri, the Watch app, weekly deposits on autopilot, chores with approval, the family total, archiving, equity and mixed allowances, widgets, and the Watch complication.",
+    a: "Everything. The app is sold as one subscription, monthly or yearly: jars, goals, history, household sharing, change alerts, Siri, the Watch app, weekly deposits on autopilot, deposits planned for a date, chores with approval, the family total, the weekly summary, archiving, setting aside a sum that becomes theirs on a date, spend tags, goal pictures, widgets, and the Watch complication.",
   },
   {
     q: "Does everyone in the household need to subscribe?",
@@ -39,6 +39,10 @@ const FAQ: { q: string; a: string }[] = [
   {
     q: "What can I say to Siri?",
     a: `"How much does Emma have in ${ALLOWANCE_JAR.name}", "Add to Emma in ${ALLOWANCE_JAR.name}" (Siri then asks how much), "Spend from Emma in ${ALLOWANCE_JAR.name}", "Chores in ${ALLOWANCE_JAR.name}", and "Mark dishes done in ${ALLOWANCE_JAR.name}", using your own kids' and chores' names. The Shortcuts app lists every phrase in your language.`,
+  },
+  {
+    q: "What is the difference between adding money and setting aside a sum?",
+    a: "Adding money, by hand or every week, goes into the jar right away. A set-aside sum is money a parent puts away now that becomes the kid's on a date, like a gift held until a birthday. An allowance can use one or both; you choose when you create it, and the editor shows what is set aside and when it becomes theirs.",
   },
   {
     q: "Who can approve chores?",

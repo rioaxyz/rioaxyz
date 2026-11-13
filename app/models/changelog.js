@@ -2,6 +2,11 @@
 const CHANGELOG = [
   {
     date: "Nov 2026",
+    title: "Allowance Jar · 1.1",
+    body: "Deposits planned for a date, spend tags, a picture on the goal with the weeks left to reach it, a weekly summary of what each kid did, chore approval from the notification, and a clearer way to set aside a sum that becomes theirs on a date.",
+  },
+  {
+    date: "Nov 2026",
     title: "Allowance Jar · On the App Store",
     body: "Allowance Jar 1.0 is out for iPhone, iPad, and Apple Watch, with 14 days free and one subscription for the whole household.",
   },
