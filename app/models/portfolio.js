@@ -15,7 +15,7 @@ const PORTFOLIO = [
     kind: "Mobile app",
     platforms: "iOS · iPadOS · watchOS",
     status: "live",
-    statusLabel: "On the App Store · v1.0",
+    statusLabel: "On the App Store · v1.1",
     cta: "Details",
     storeUrl: ALLOWANCE_JAR.appStoreUrl,
     storeCta: "App Store",
