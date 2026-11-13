@@ -3,18 +3,17 @@ export const SPLAT = {
   name: "Splat Patrol",
   tagline: "Smash the swarm. Save the snacks.",
   description:
-    "A bug-smashing game for iPhone and iPad. Swarms pour down the screen toward your treasure; tap them flat, chain combos, and take down twelve bosses.",
+    "A bug-smashing game for iPhone and iPad. Swarms pour down the screen toward your treasure; tap them flat, chain combos, and take down eleven bosses.",
   /// The App Store page. Empty until the game is live, which shows "coming soon" instead of a button.
   appStoreUrl: "",
   supportEmail: "hello@rioa.xyz",
   privacyEffectiveDate: "November 12, 2026",
 };
 
-/// The twelve levels, in the order the game plays them. `key` names the boss art in
+/// The eleven levels, in the order the game plays them. `key` names the boss art in
 /// /public/assets/splat-patrol/bosses.
 export const LEVELS = [
   { key: "ants", title: "Picnic Panic", swarm: "Ants", boss: "Ant Warlord" },
-  { key: "bees", title: "Meadow Buzz", swarm: "Bumblebees", boss: "Queen Bee" },
   { key: "beetles", title: "Beetle Bog", swarm: "Beetles", boss: "Iron Ladybug" },
   { key: "termites", title: "Timber Trouble", swarm: "Termites", boss: "Timber Queen" },
   { key: "spiders", title: "Web of Doom", swarm: "Spiders", boss: "Broodmother" },
