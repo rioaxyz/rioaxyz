@@ -17,3 +17,89 @@ body {
     linear-gradient(90deg, rgba(29, 78, 107, 0.08) 1px, transparent 1px);
   background-size: 40px 40px;
 }
+
+/* Splat Patrol's pages, /splat-patrol: a lawn, a honeycomb, and arcade buttons that sink when pressed. */
+.splat-grass {
+  background-color: #2f8f3a;
+  background-image: radial-gradient(ellipse at 18% 8%, rgba(194, 242, 77, 0.4), transparent 46%),
+    radial-gradient(ellipse at 88% 28%, rgba(26, 51, 31, 0.6), transparent 52%),
+    radial-gradient(ellipse at 38% 96%, rgba(26, 51, 31, 0.55), transparent 56%),
+    repeating-linear-gradient(92deg, rgba(255, 255, 255, 0.04) 0 2px, transparent 2px 7px);
+}
+
+.splat-comb {
+  background-color: #5a2f10;
+  background-image: radial-gradient(ellipse at 50% 0%, rgba(255, 194, 51, 0.16), transparent 60%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='97' viewBox='0 0 56 97'%3E%3Cpath d='M28 0 56 16.2V48.5L28 64.7 0 48.5V16.2ZM28 64.7V97' fill='none' stroke='%239e5c1f' stroke-opacity='.6' stroke-width='2.5'/%3E%3C/svg%3E");
+}
+
+/* Display type with the logo's dark outline. */
+.splat-title {
+  font-family: var(--font-splat-display), system-ui, sans-serif;
+  -webkit-text-stroke: 0.14em #1a1208;
+  paint-order: stroke fill;
+  text-shadow: 0 0.09em 0 #1a1208;
+  letter-spacing: 0.01em;
+}
+
+.splat-btn {
+  --top: #55cc60;
+  --bottom: #35a544;
+  --edge: #1f6b2a;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  padding: 0.85rem 1.7rem;
+  border-radius: 18px;
+  font-family: var(--font-splat-display), system-ui, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.1;
+  color: #fff;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+  background: linear-gradient(var(--top), var(--bottom));
+  box-shadow: 0 6px 0 var(--edge), 0 12px 20px rgba(0, 0, 0, 0.35);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.splat-btn:hover {
+  transform: translateY(2px);
+  box-shadow: 0 4px 0 var(--edge), 0 9px 16px rgba(0, 0, 0, 0.35);
+}
+
+.splat-btn:active {
+  transform: translateY(6px);
+  box-shadow: 0 0 0 var(--edge), 0 4px 8px rgba(0, 0, 0, 0.35);
+}
+
+.splat-btn-honey {
+  --top: #ffd45c;
+  --bottom: #f2a81c;
+  --edge: #a8690a;
+}
+
+.splat-btn-sky {
+  --top: #6cc2ff;
+  --bottom: #2f95e8;
+  --edge: #1a5c99;
+}
+
+@keyframes splat-wiggle {
+  0%,
+  100% {
+    transform: rotate(0) scale(1);
+  }
+  25% {
+    transform: rotate(-5deg) scale(1.06);
+  }
+  75% {
+    transform: rotate(5deg) scale(1.06);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .splat-wiggle:hover {
+    animation: splat-wiggle 0.45s ease-in-out;
+  }
+}

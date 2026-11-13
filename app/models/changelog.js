@@ -2,6 +2,11 @@
 const CHANGELOG = [
   {
     date: "Nov 2026",
+    title: "Splat Patrol · Product pages",
+    body: "A bug-smashing game for iPhone and iPad joins Rioa, with product, support and privacy pages in its own look ahead of the App Store launch.",
+  },
+  {
+    date: "Nov 2026",
     title: "Allowance Jar · 1.1",
     body: "Deposits planned for a date, spend tags, a picture on the goal with the weeks left to reach it, a weekly summary of what each kid did, chore approval from the notification, and a clearer way to set aside a sum that becomes theirs on a date.",
   },
