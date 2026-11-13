@@ -102,7 +102,7 @@ export default function SplatPatrolPage() {
           </p>
           <p className="mt-6 max-w-[640px] text-xl leading-relaxed font-semibold text-white [text-shadow:0_2px_0_rgba(0,0,0,0.35)]">
             The bugs are coming for the picnic cake. Tap them flat before they
-            take a bite, chain combos, and bring down twelve bosses, from the
+            take a bite, chain combos, and bring down eleven bosses, from the
             Ant Warlord to a dragonfly that breathes fire.
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
@@ -136,19 +136,20 @@ export default function SplatPatrolPage() {
         </div>
       </section>
 
-      {/* The honeycomb: twelve bosses */}
+      {/* The honeycomb: the bosses */}
       <section id="bosses" className="splat-comb border-b-4 border-splat-outline scroll-mt-4">
         <div className="max-w-6xl mx-auto px-6 py-24 flex flex-col items-center text-center">
-          <SectionTitle>Twelve swarms. Twelve bosses.</SectionTitle>
+          <SectionTitle>Eleven swarms. Eleven bosses.</SectionTitle>
           <p className="mt-5 max-w-[640px] text-lg leading-relaxed font-semibold text-splat-cream">
             Every level sends a different family after a different treasure,
             and each one moves its own way. Ants march in columns. Termites
             tunnel under the boards where you can&apos;t reach them.
             Dragonflies hover, then strike.
           </p>
-          <ol className="mt-14 w-full grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-12">
+          {/* Flex, not grid, so a short last row sits in the middle. */}
+          <ol className="mt-14 w-full flex flex-wrap justify-center gap-y-12">
             {LEVELS.map((level, index) => (
-              <li key={level.key} className="flex flex-col items-center">
+              <li key={level.key} className="w-1/2 sm:w-1/3 lg:w-1/4 px-3 flex flex-col items-center">
                 <div className="relative splat-wiggle">
                   <Image
                     src={`/assets/splat-patrol/bosses/${level.key}.jpg`}
@@ -229,7 +230,7 @@ export default function SplatPatrolPage() {
             <h2 className="splat-title text-4xl text-splat-honey">Game Center</h2>
             <ul className="mt-5 space-y-3 text-lg leading-relaxed font-semibold text-splat-cream">
               <li>Leaderboards for every level, your longest combo and your total score.</li>
-              <li>27 trophies, from your first splat to all 36 stars.</li>
+              <li>26 trophies, from your first splat to all 33 stars.</li>
               <li>See which friend is just ahead of you, then challenge them.</li>
             </ul>
             <ul className="mt-8 grid grid-cols-4 gap-4" aria-label="Some of the trophies">
