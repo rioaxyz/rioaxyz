@@ -21,6 +21,18 @@ const PORTFOLIO = [
     storeCta: "App Store",
   },
   {
+    title: "Splat Patrol",
+    image: "/assets/splat-patrol.png",
+    url: "/splat-patrol",
+    description: "Smash the swarm, save the snacks",
+    category: "mobile",
+    kind: "Mobile game",
+    platforms: "iOS · iPadOS",
+    status: "soon",
+    statusLabel: "Coming soon",
+    cta: "Details",
+  },
+  {
     title: "Sonr",
     image: "/assets/sonr-logo.png",
     url: "https://www.getsonr.com",

@@ -14,6 +14,9 @@ const config: Config = {
         // Loqui's own pages, /loqui
         "loqui-sans": ["var(--font-loqui-sans)", "system-ui", "sans-serif"],
         "loqui-mono": ["var(--font-loqui-mono)", "ui-monospace", "monospace"],
+        // Splat Patrol's own pages, /splat-patrol
+        "splat-display": ["var(--font-splat-display)", "system-ui", "sans-serif"],
+        "splat-sans": ["var(--font-splat-sans)", "system-ui", "sans-serif"],
       },
       colors: {
         night: "#0D1B24",
@@ -42,6 +45,22 @@ const config: Config = {
           amber: "#FFB547",
           mint: "#3DDC97",
           sky: "#5AC8FA",
+        },
+        // Splat Patrol's palette, from the game's Theme.swift and its honeycomb badge
+        splat: {
+          ink: "#0D140F",
+          moss: "#1A331F",
+          grass: "#2F8F3A",
+          leaf: "#40B84D",
+          lime: "#C2F24D",
+          honey: "#FFC233",
+          comb: "#733D14",
+          bark: "#45210A",
+          berry: "#ED424D",
+          sky: "#4DB3FF",
+          grape: "#9466EB",
+          cream: "#FFF4D6",
+          outline: "#1A1208",
         },
       },
     },
