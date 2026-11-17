@@ -91,14 +91,16 @@ export default function PrivacyPage() {
           <p>
             None of it is sent to us. Like any player we can see the
             leaderboards, and Apple shows a game&rsquo;s developer the top
-            100 scores on each and lets us remove one. If you are not signed
-            in, no scores are sent.
+            100 scores on each and lets us remove one. While you are not
+            signed in, no scores are sent. Bests and cubes from games played
+            signed out stay on the device and are sent the next time you are
+            signed in.
           </p>
           <p>
             Scores already sent stay on Apple&rsquo;s leaderboards if you
             delete the game; Apple keeps them with your Game Center account.
             To stop sending scores, sign out of Game Center in the Settings
-            app. The game plays the same without it.
+            app and stay signed out. The game plays the same without it.
           </p>
         </Section>
 
