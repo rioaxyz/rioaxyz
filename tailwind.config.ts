@@ -17,6 +17,9 @@ const config: Config = {
         // Splat Patrol's own pages, /splat-patrol
         "splat-display": ["var(--font-splat-display)", "system-ui", "sans-serif"],
         "splat-sans": ["var(--font-splat-sans)", "system-ui", "sans-serif"],
+        // Vanishcubes' own pages, /vanishcubes: the system font for sentences. Tomorrow, for names and
+        // commands, is set in globals.css from the variable the layout loads.
+        "vanish-sans": ["system-ui", "-apple-system", "Segoe UI", "Roboto", "Helvetica Neue", "sans-serif"],
       },
       colors: {
         night: "#0D1B24",
@@ -61,6 +64,14 @@ const config: Config = {
           grape: "#9466EB",
           cream: "#FFF4D6",
           outline: "#1A1208",
+        },
+        // Vanishcubes' ground and plaster, from the game's BRAND.md. Everything is one of these at
+        // 100, 80, 60, 40 or 20%, or 10% for hairlines; the cubes' colors are in app/vanishcubes/site.ts
+        vanish: {
+          black: "#000000",
+          plaster: "#F5F3EE",
+          secondary: "#9A97A8",
+          surface: "#0F0F12",
         },
       },
     },
